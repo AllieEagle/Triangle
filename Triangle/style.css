@@ -1,0 +1,11 @@
+.triangle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 0;
+    height: 0;
+    border: 100px solid transparent;
+    border-top: 50px;
+    border-bottom: 200px solid red;
+}
